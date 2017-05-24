@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD7A0C671ED536E100DA4D10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7A0C661ED536E100DA4D10 /* AppDelegate.m */; };
+		CD7A0C6A1ED536E100DA4D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7A0C691ED536E100DA4D10 /* main.m */; };
+		CD7A0C6D1ED536E100DA4D10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7A0C6C1ED536E100DA4D10 /* ViewController.m */; };
+		CD7A0C6F1ED536E100DA4D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7A0C6E1ED536E100DA4D10 /* Assets.xcassets */; };
+		CD7A0C721ED536E100DA4D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7A0C701ED536E100DA4D10 /* Main.storyboard */; };
+		CD7A0C7C1ED5374200DA4D10 /* RotateVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7A0C7B1ED5374200DA4D10 /* RotateVideo.m */; };
+		CD7A0C7D1ED5382D00DA4D10 /* 950e459557f3170b31e40c41185d9ae6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CD7A0C791ED5371800DA4D10 /* 950e459557f3170b31e40c41185d9ae6.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD7A0C621ED536E100DA4D10 /* RotateVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7A0C651ED536E100DA4D10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD7A0C661ED536E100DA4D10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD7A0C691ED536E100DA4D10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD7A0C6B1ED536E100DA4D10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD7A0C6C1ED536E100DA4D10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD7A0C6E1ED536E100DA4D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD7A0C711ED536E100DA4D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7A0C731ED536E100DA4D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7A0C791ED5371800DA4D10 /* 950e459557f3170b31e40c41185d9ae6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 950e459557f3170b31e40c41185d9ae6.mp4; sourceTree = "<group>"; };
+		CD7A0C7A1ED5374200DA4D10 /* RotateVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateVideo.h; sourceTree = "<group>"; };
+		CD7A0C7B1ED5374200DA4D10 /* RotateVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateVideo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7A0C5F1ED536E100DA4D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD7A0C591ED536E100DA4D10 = {
+			isa = PBXGroup;
+			children = (
+				CD7A0C641ED536E100DA4D10 /* RotateVideo */,
+				CD7A0C631ED536E100DA4D10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7A0C631ED536E100DA4D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7A0C621ED536E100DA4D10 /* RotateVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7A0C641ED536E100DA4D10 /* RotateVideo */ = {
+			isa = PBXGroup;
+			children = (
+				CD7A0C791ED5371800DA4D10 /* 950e459557f3170b31e40c41185d9ae6.mp4 */,
+				CD7A0C7A1ED5374200DA4D10 /* RotateVideo.h */,
+				CD7A0C7B1ED5374200DA4D10 /* RotateVideo.m */,
+				CD7A0C651ED536E100DA4D10 /* AppDelegate.h */,
+				CD7A0C661ED536E100DA4D10 /* AppDelegate.m */,
+				CD7A0C6B1ED536E100DA4D10 /* ViewController.h */,
+				CD7A0C6C1ED536E100DA4D10 /* ViewController.m */,
+				CD7A0C6E1ED536E100DA4D10 /* Assets.xcassets */,
+				CD7A0C701ED536E100DA4D10 /* Main.storyboard */,
+				CD7A0C731ED536E100DA4D10 /* Info.plist */,
+				CD7A0C681ED536E100DA4D10 /* Supporting Files */,
+			);
+			path = RotateVideo;
+			sourceTree = "<group>";
+		};
+		CD7A0C681ED536E100DA4D10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7A0C691ED536E100DA4D10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7A0C611ED536E100DA4D10 /* RotateVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7A0C761ED536E100DA4D10 /* Build configuration list for PBXNativeTarget "RotateVideo" */;
+			buildPhases = (
+				CD7A0C5E1ED536E100DA4D10 /* Sources */,
+				CD7A0C5F1ED536E100DA4D10 /* Frameworks */,
+				CD7A0C601ED536E100DA4D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotateVideo;
+			productName = RotateVideo;
+			productReference = CD7A0C621ED536E100DA4D10 /* RotateVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7A0C5A1ED536E100DA4D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ylx;
+				TargetAttributes = {
+					CD7A0C611ED536E100DA4D10 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XD9DMGBJLW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD7A0C5D1ED536E100DA4D10 /* Build configuration list for PBXProject "RotateVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD7A0C591ED536E100DA4D10;
+			productRefGroup = CD7A0C631ED536E100DA4D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7A0C611ED536E100DA4D10 /* RotateVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7A0C601ED536E100DA4D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7A0C6F1ED536E100DA4D10 /* Assets.xcassets in Resources */,
+				CD7A0C7D1ED5382D00DA4D10 /* 950e459557f3170b31e40c41185d9ae6.mp4 in Resources */,
+				CD7A0C721ED536E100DA4D10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7A0C5E1ED536E100DA4D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7A0C6D1ED536E100DA4D10 /* ViewController.m in Sources */,
+				CD7A0C6A1ED536E100DA4D10 /* main.m in Sources */,
+				CD7A0C7C1ED5374200DA4D10 /* RotateVideo.m in Sources */,
+				CD7A0C671ED536E100DA4D10 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD7A0C701ED536E100DA4D10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7A0C711ED536E100DA4D10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD7A0C741ED536E100DA4D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD7A0C751ED536E100DA4D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD7A0C771ED536E100DA4D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XD9DMGBJLW;
+				INFOPLIST_FILE = RotateVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = video.gexing.com.RotateVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD7A0C781ED536E100DA4D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XD9DMGBJLW;
+				INFOPLIST_FILE = RotateVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = video.gexing.com.RotateVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7A0C5D1ED536E100DA4D10 /* Build configuration list for PBXProject "RotateVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7A0C741ED536E100DA4D10 /* Debug */,
+				CD7A0C751ED536E100DA4D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7A0C761ED536E100DA4D10 /* Build configuration list for PBXNativeTarget "RotateVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7A0C771ED536E100DA4D10 /* Debug */,
+				CD7A0C781ED536E100DA4D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD7A0C5A1ED536E100DA4D10 /* Project object */;
+}
