@@ -13,12 +13,19 @@
 
 @property (nonatomic, copy) NSString * filePath;
 
+@property (nonatomic, retain) RotateVideo * tool;
+
+@property (nonatomic, copy) NSString * leftTargetPath;
+@property (nonatomic, copy) NSString * rightTargetPath;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.tool = [RotateVideo new];
     
     NSString * temp = [NSSearchPathForDirectoriesInDomains(NSMoviesDirectory, NSUserDomainMask, YES) firstObject];
     temp = [temp stringByAppendingPathComponent:@"DownloadVideo"];
@@ -28,12 +35,17 @@
     NSLog(@"视频输出路径 %@", temp);
     
     self.filePath = [[NSBundle mainBundle] pathForResource:@"950e459557f3170b31e40c41185d9ae6" ofType:@"mp4"];
+    
+
+    self.leftTargetPath = [temp stringByAppendingPathComponent:@"left.mp4"];
+    self.rightTargetPath = [temp stringByAppendingPathComponent:@"right.mp4"];
+    
 }
 - (IBAction)rotateLeft:(id)sender {
-    [[RotateVideo new] rotateVideoIsLeft:YES FilePath:self.filePath];
+    [self.tool rotateVideoIsLeft:YES FilePath:self.filePath TargetPath:self.leftTargetPath];
 }
 - (IBAction)rotateRight:(id)sender {
-    [[RotateVideo new] rotateVideoIsLeft:NO FilePath:self.filePath];
+    [self.tool rotateVideoIsLeft:NO FilePath:self.filePath TargetPath:self.rightTargetPath];
 }
 
 

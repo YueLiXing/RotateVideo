@@ -24,6 +24,7 @@
 
 //关于视频旋转的一些代码
 - (void)rotateVideoIsLeft:(BOOL)isLeft FilePath:(NSString *)filePath TargetPath:(NSString *)targetPath {
+    [self deleteFilePath:targetPath];
     AVURLAsset * asset = [AVURLAsset assetWithURL:[NSURL fileURLWithPath:filePath]];
 
     CMTimeRange range = CMTimeRangeMake(kCMTimeZero, asset.duration);

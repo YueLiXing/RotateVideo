@@ -12,4 +12,6 @@
 
 - (void)rotateVideoIsLeft:(BOOL)isLeft FilePath:(NSString *)filePath;
 
+- (void)rotateVideoIsLeft:(BOOL)isLeft FilePath:(NSString *)filePath TargetPath:(NSString *)targetPath;
+
 @end
